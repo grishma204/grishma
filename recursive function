@@ -1,0 +1,9 @@
+recurssive function
+def fact(x):
+    f=1
+    for i in range(1,x+1):
+        f*=i
+    return f
+a=(int)(input("enter no\n"))
+print("factorial of%d=%d"%(a,fact(a)))
+#formated o/p
